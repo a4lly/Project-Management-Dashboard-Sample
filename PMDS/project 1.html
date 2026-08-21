@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agile Sprint Board</title>
+  <link rel="stylesheet" href="project 1.css" />
+</head>
+<body>
+  <div class="board">
+    <div class="column" id="todo" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <h3>To Do</h3>
+      <div class="card" id="task-1" draggable="true" ondragstart="drag(event)">
+        <strong>Elvina Pashaeva</strong> Refine Jira Backlog
+        <p></p>
+        <strong style="font-style: italic;">PM-2321</strong>
+      </div>
+      <div class="card" id="task-2" draggable="true" ondragstart="drag(event)">
+        <strong>Alikhan Hatamov</strong> Review Figma Prototypes
+        <p></p>
+        <strong style="font-style: italic;">PM-2322</strong>
+      </div>
+    </div>
+    
+    <div class="column" id="in-progress" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <h3>In Progress</h3>
+    </div>
+    
+    <div class="column" id="done" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <h3>Done</h3>
+    </div>
+  </div>
+  <script src="project 1.js"></script>
+</body>
+</html>
