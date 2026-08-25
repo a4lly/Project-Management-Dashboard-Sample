@@ -19,6 +19,8 @@ A sample project management dashboard built with HTML, CSS, and JavaScript. This
 
 ## Getting Started
 
+*Project updated on 25/08/2026
+
 ### Prerequisites
 
 - A modern web browser (Chrome, Firefox, Safari, or Edge)
